@@ -98,6 +98,7 @@ export default defineConfig(({ command, mode }) => {
   return {
     // vite config
     define: {
+      // Available on `window`
       __APP_ENV__: JSON.stringify(env.APP_ENV),
     },
   }
